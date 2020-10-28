@@ -1,0 +1,52 @@
+CRITICAL - 2020-10-20 02:52:22 --> Cannot declare class App\Controllers\Places, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-20 02:53:29 --> Cannot declare class App\Controllers\Places, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-20 02:57:11 --> Cannot declare class App\Controllers\Travel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-20 02:58:46 --> Class 'App\Models\BaseController' not found
+#0 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('travel')
+#2 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('travel')
+#3 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dgpt4711-lab6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-20 02:59:03 --> Class 'App\Models\BaseController' not found
+#0 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('travel')
+#2 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('travel')
+#3 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dgpt4711-lab6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-20 02:59:05 --> Cannot declare class App\Controllers\Places, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-20 02:59:31 --> Class 'App\Models\BaseController' not found
+#0 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('travel')
+#2 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('travel')
+#3 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dgpt4711-lab6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-20 03:00:30 --> Class 'App\Models\BaseController' not found
+#0 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('travel')
+#2 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('travel')
+#3 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dgpt4711-lab6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-20 03:01:15 --> Class 'App\Models\BaseController' not found
+#0 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(575): include_once()
+#1 C:\xampp\htdocs\dgpt4711-lab6\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('travel')
+#2 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('travel')
+#3 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dgpt4711-lab6\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dgpt4711-lab6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
