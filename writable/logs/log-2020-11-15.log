@@ -69,3 +69,37 @@ CRITICAL - 2020-11-15 19:32:04 --> readfile(C:\xampp\htdocs\Assignment1\writable
 #4 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 {main}
+CRITICAL - 2020-11-15 23:48:05 --> Undefined variable: places
+#0 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 23:48:38 --> Undefined index: link
+#0 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 23:56:50 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 23:57:00 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 23:59:50 --> Object of class CodeIgniter\View\Table could not be converted to string
+#0 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

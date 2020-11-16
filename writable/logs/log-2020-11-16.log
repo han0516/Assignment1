@@ -1,0 +1,26 @@
+CRITICAL - 2020-11-16 00:02:09 --> Call to undefined method CodeIgniter\View\Table::addCol()
+#0 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-16 00:02:44 --> Call to undefined method CodeIgniter\View\Table::addCol()
+#0 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-16 00:05:31 --> Undefined property: stdClass::$img
+#0 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->index()
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-16 00:07:12 --> Undefined index: do
+#0 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
