@@ -1,0 +1,71 @@
+CRITICAL - 2020-11-15 19:07:24 --> Class 'App\Models\Traveler' not found
+#0 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->index()
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 19:12:24 --> Undefined property: App\Models\Traveler::$data
+#0 C:\xampp\htdocs\Assignment1\app\Models\Traveler.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(15): App\Models\Traveler->findAll()
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->index()
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#4 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 19:13:02 --> Call to undefined method App\Models\Traveler::findAll()
+#0 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->index()
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 19:13:51 --> Class 'App\Models\JSONModel' not found
+#0 C:\xampp\htdocs\Assignment1\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\Assignment1\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Assignment1\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Trav...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Trav...')
+#4 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(14): spl_autoload_call('App\\Models\\Trav...')
+#5 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->index()
+#6 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#7 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 19:13:54 --> Class 'App\Models\JSONModel' not found
+#0 C:\xampp\htdocs\Assignment1\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\Assignment1\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Assignment1\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Trav...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Trav...')
+#4 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(14): spl_autoload_call('App\\Models\\Trav...')
+#5 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->index()
+#6 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#7 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 19:14:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Assignment1\app\Models\Simple\JSONModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\Assignment1\app\Models\Simple\JSONModel.php(22): App\Models\Simple\JSONModel->load()
+#2 C:\xampp\htdocs\Assignment1\app\Controllers\Traveler.php(14): App\Models\Simple\JSONModel->__construct()
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->index()
+#4 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#5 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 19:21:31 --> Class 'App\Models\Places' not found
+#0 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 19:22:11 --> Class 'App\Models\Places' not found
+#0 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Traveler->showme('1')
+#1 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Traveler))
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 19:32:04 --> readfile(C:\xampp\htdocs\Assignment1\writable\data/%7Bimage%7D): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xam...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Assignment1\app\Controllers\Media.php(15): readfile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(914): App\Controllers\Media->image('%7Bimage%7D')
+#3 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media))
+#4 C:\xampp\htdocs\Assignment1\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Assignment1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

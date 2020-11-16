@@ -10,6 +10,8 @@
                 <p>{do}</p>
                 <p><strong>description:</strong> {description}</p>
 		<p><img src="/image/{image}"/></p>
+                <p><a href="/traveler">Travelerslist</a></p>
 		<p><a href="/home">Home</a></p>
+                
 	</body>
 </html>

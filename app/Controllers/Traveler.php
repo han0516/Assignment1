@@ -11,8 +11,8 @@ class Traveler extends BaseController
 
 public function index()
 {
-$places = new \App\Models\Places();
-$records = $places->findAll();
+$traveler = new \App\Models\Traveler();
+$records = $traveler->findAll();
 // get a template parser
 
 $parser = \Config\Services::parser(); // tell it about the substitions
@@ -26,11 +26,11 @@ return $parser->setData(['records' => $records]) // and have it render the templ
 public function showme($id)
 {// connect to the model
 
-$places = new \App\Models\Places();
+$traveler = new \App\Models\Traveler();
 
 // retrieve all the records
 
-$record = $places->find($id);
+$record = $traveler->find($id);
 // get a template parser
 
 $parser = \Config\Services::parser(); 

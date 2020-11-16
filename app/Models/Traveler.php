@@ -1,6 +1,6 @@
 <?php
 namespace App\Models;
- 
+use App\Models\Simple\JSONModel;
 
 
 /*
@@ -8,10 +8,10 @@ namespace App\Models;
  * Note that we don't have to extend CodeIgniter's model for now
  */
 
-class Places {
+class Traveler extends JSONModel{
 
     //mock data : an array of records
-    protected $data = [
+   /* protected $data = [
         '1' => [
             'id' => 1,
             'name' => 'Olberic',
@@ -54,8 +54,8 @@ class Places {
         ],
         '5' => [
            'id' => 5,
-            'name' => '欧菲莉亚',
-            'Chinesename' => 'Olberic',
+            'name' => 'Ophilia',
+            'Chinesename' => '欧菲莉亚',
             'position' => 'FrostLand',
             'do'=> '神官',
             'weapon'=> 'mace',
@@ -92,9 +92,9 @@ class Places {
             'description'=> '森林深处WoodLand地区村落里首屈一指的猎人，Haanit的师傅在一年前为了狩猎一只名为“赤目”的野兽而下落不明。为了寻找失联的师傅，Haanit也踏上了旅途。',
             'image' => 'Haanit.png',
         ],
-    ];
-
-    public function findAll() {
+    ];*/
+    
+   /* public function findAll() {
         return $this->data;
     }
 
@@ -103,6 +103,7 @@ class Places {
             return $this->data[$id];
         }
         return null;
-    }
-
+    }*/
+    protected $origin = WRITEPATH . 'data/Travelers.json';
+    protected $keyField = 'id'; protected $validationRules = [];
 }
