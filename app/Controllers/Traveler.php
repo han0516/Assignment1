@@ -32,7 +32,10 @@ $table->setHeading(array_map('ucfirst', $displayHeadings));
 
 foreach ($records as $record) {
 $nameLink = anchor("traveler/showme/$record->id",$record->name);
-$table->addRow($nameLink,$record->description); 
+$addimg="<img src=\"/image/".$record->image."\"/>";
+$table->addRow($nameLink,$record->description,$addimg); 
+
+
 
 }
 
