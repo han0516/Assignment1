@@ -5,7 +5,7 @@ namespace App\Controllers;
 
  
 
-class Traveler extends BaseController
+class heroes extends BaseController
 
 {
 
